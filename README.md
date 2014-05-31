@@ -1,6 +1,6 @@
 # AngularStrap-Rails
 
-angular-strap-rails adds [AngularStrap](http://mgcrea.github.io/angular-strap/)
+angular-strap-rails adds AngularStrap
 set of angular directives to your rails asset pipeline. 
 
 ## Usage
@@ -9,6 +9,12 @@ To install put this in your Gemfile
 
 ```Gemfile
 gem 'angular-strap-rails'
+```
+
+or
+
+```Gemfile
+gem 'angular-strap-rails', github: 'vulpi-shu/angular-strap-rails'
 ```
 
 Then add the following to your application.js
@@ -28,7 +34,7 @@ And this in your aplication.css.sass
 # require angular-strap
 ```
 
-For further information on how to use it refer to [AngularStrap](http://mgcrea.github.io/angular-strap/) 
+For further information on how to use it refer to AngularStrap
 
 ## Contributing
 
